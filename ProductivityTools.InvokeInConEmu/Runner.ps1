@@ -1,6 +1,6 @@
 clear
 cd $PSScriptRoot
-Import-Module .\ProductivityTools.PSInvokeInConEmu.psm1 -Force
+Import-Module .\ProductivityTools.InvokeInConEmu.psm1 -Force
 
 #Invoke-PSCommandInConEmu {get-process} -ForegroundTab
 Set-MasterConfigurationBaseConfigurationFile -BaseConfigurationFileName  d:\Tech\PSMasterConfiguration.xml
